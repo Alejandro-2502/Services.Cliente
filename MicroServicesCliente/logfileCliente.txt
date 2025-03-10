@@ -1,0 +1,10 @@
+INFORMATION: 2025 - 03 - 04 18: 27: 46 - CreateClienteHandler - Handle- OK
+INFORMATION: 2025 - 03 - 04 18: 28: 25 - UpdateClienteHandler - Handle- OK
+INFORMATION: 2025 - 03 - 04 18: 30: 20 - DeleteClienteHandler - Handle- OK
+ERROR: 2025 - 03 - 04 18: 30: 20 - DeleteClienteHandler - HandleAutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Boolean -> ClienteResponse
+System.Boolean -> Cliente.Aplication.Responses.ClienteResponse
+   at lambda_method154(Closure, Object, ClienteResponse, ResolutionContext)
+   at Cliente.Application.UserHistory.Comands.DeleteCliente.DeleteClienteHandler.Handle(DeleteClienteCommand command, CancellationToken cancellationToken) in C:\Desarrollos\CSharp\Proyectos\MicoServiceCliente\Cliente.Aplication\UserHistorys\Commands\DeleteCliente\DeleteClienteHandler.cs:line 38
